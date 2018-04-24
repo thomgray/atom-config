@@ -1,0 +1,25 @@
+"*":
+  "atom-ide-ui":
+    use: {}
+  core:
+    disabledPackages: [
+      "linter"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 12
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "7cf1c5c3-27de-4243-b2bd-3d6b999a0585"
+  "linter-ui-default":
+    panelHeight: 251
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
