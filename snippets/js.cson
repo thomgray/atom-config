@@ -1,0 +1,39 @@
+'use babel':
+    'prefix': 'ub'
+    'body': '\'use babel\';'
+'describe':
+    'prefix': 'desc'
+    'body': """
+    describe('${1:description}', () => {
+        it('should ${2:...}', () => {
+            ${3}
+        });
+    });
+    """
+'it':
+    'prefix': 'it'
+    'body': """
+    it('should ${1:...}', () => {
+        ${2}
+    });
+      """
+'beforeEach':
+    'prefix': 'before'
+    'body': """
+    beforeEach(() => {
+        ${1}
+    });
+    """
+'afterEach':
+    'prefix': 'after'
+    'body': """
+    afterEach(() => {
+        ${1}
+    });
+    """
+'expect':
+    'prefix': 'expect'
+    'body': 'expect(${1:thing}).to${2:Be}(${3:result});'
+'expect not':
+    'prefix': 'expnot'
+    'body': 'expect(${1:thing}).not.to${2:Be}(${3:expected});'

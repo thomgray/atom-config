@@ -7,14 +7,13 @@
     ]
     telemetryConsent: "limited"
   editor:
-    fontSize: 12
+    fontSize: 13
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
   "exception-reporting":
     userId: "7cf1c5c3-27de-4243-b2bd-3d6b999a0585"
-  "linter-ui-default":
-    panelHeight: 251
+  "linter-ui-default": {}
   minimap:
     plugins:
       "highlight-selected": true
